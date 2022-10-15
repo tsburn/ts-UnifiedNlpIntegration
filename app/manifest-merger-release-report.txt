@@ -2,4 +2,6 @@
 manifest
 ADDED from AndroidManifest.xml:2:1
 	xmlns:android
-		ADDED from AndroidManif
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED
