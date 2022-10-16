@@ -5,4 +5,5 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidMani
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from A
