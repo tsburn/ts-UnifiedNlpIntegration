@@ -8,4 +8,5 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		INJECTED
+		INJECTED from AndroidManifest.xml:0:0
+	
