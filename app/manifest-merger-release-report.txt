@@ -11,4 +11,4 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionCode
-		INJECT
+		INJECTED from AndroidManifest
