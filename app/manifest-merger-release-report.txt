@@ -14,4 +14,5 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from AndroidManife
+ADDED from AndroidManifest.xml:5:5
+	andr
