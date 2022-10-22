@@ -17,4 +17,5 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from AndroidManifest.xml:5:5
 	android:name
 		ADDED from AndroidManifest.xml:5:22
-uses-permission#android.p
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED
