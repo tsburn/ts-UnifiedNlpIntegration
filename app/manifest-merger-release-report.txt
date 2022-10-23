@@ -20,4 +20,5 @@ ADDED from AndroidManifest.xml:5:5
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from AndroidManifest.xml:6:5
 	android:name
-		ADDED from An
+		ADDED from AndroidManifest.xml:6:22
+uses-p
