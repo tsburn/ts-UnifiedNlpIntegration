@@ -25,4 +25,4 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from AndroidManifest.xml:7:5
 	android:name
 		ADDED from AndroidManifest.xml:7:22
-uses
+uses-permission#android.permissi
