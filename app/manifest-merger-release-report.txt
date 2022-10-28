@@ -30,4 +30,5 @@ ADDED from AndroidManifest.xml:8:5
 	android:name
 		ADDED from AndroidManifest.xml:8:22
 application
-ADDED from 
+ADDED from AndroidManifest.xml:10:5
+MERGED
