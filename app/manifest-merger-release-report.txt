@@ -26,4 +26,6 @@ ADDED from AndroidManifest.xml:7:5
 	android:name
 		ADDED from AndroidManifest.xml:7:22
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from AndroidManife
+ADDED from AndroidManifest.xml:8:5
+	android:name
+	
