@@ -31,4 +31,4 @@ ADDED from AndroidManifest.xml:8:5
 		ADDED from AndroidManifest.xml:8:22
 application
 ADDED from AndroidManifest.xml:10:5
-MERGED
+MERGED from com.android.support:support-
