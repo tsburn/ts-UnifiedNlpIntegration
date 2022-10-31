@@ -35,4 +35,5 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
 		ADDED from AndroidManifest.xml:13:9
 	android:allowBackup
-		ADDED from Android
+		ADDED from AndroidManifest.xml:11:9
+	andro
