@@ -37,4 +37,5 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:allowBackup
 		ADDED from AndroidManifest.xml:11:9
 	android:icon
-		ADDED from AndroidManifes
+		ADDED from AndroidManifest.xml:12:9
+meta-data#xposedmodu
