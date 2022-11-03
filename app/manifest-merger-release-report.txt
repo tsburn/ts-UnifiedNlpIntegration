@@ -40,4 +40,5 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:12:9
 meta-data#xposedmodule
 ADDED from AndroidManifest.xml:14:9
-	android:
+	android:name
+		ADDED from Andro
