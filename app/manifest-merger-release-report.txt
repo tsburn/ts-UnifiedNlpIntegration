@@ -43,4 +43,5 @@ ADDED from AndroidManifest.xml:14:9
 	android:name
 		ADDED from AndroidManifest.xml:15:13
 	android:value
-		ADDED fro
+		ADDED from AndroidManifest.xml:16:13
+meta-da
