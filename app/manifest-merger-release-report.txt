@@ -42,4 +42,5 @@ meta-data#xposedmodule
 ADDED from AndroidManifest.xml:14:9
 	android:name
 		ADDED from AndroidManifest.xml:15:13
-	
+	android:value
+		ADDED fro
