@@ -45,4 +45,4 @@ ADDED from AndroidManifest.xml:14:9
 	android:value
 		ADDED from AndroidManifest.xml:16:13
 meta-data#xposeddescription
-ADDED fr
+ADDED from AndroidManifest.xml:17
