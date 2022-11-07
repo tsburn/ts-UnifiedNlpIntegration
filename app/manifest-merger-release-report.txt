@@ -53,4 +53,5 @@ ADDED from AndroidManifest.xml:17:9
 meta-data#xposedminversion
 ADDED from AndroidManifest.xml:20:9
 	android:name
-		ADDE
+		ADDED from AndroidManifest.xml:21:13
+	a
