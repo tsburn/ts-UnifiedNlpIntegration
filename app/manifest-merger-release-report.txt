@@ -51,4 +51,6 @@ ADDED from AndroidManifest.xml:17:9
 	android:value
 		ADDED from AndroidManifest.xml:19:13
 meta-data#xposedminversion
-ADDED from AndroidManifes
+ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDE
