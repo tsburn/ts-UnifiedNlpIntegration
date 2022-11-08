@@ -55,4 +55,5 @@ ADDED from AndroidManifest.xml:20:9
 	android:name
 		ADDED from AndroidManifest.xml:21:13
 	android:value
-		ADDED from AndroidManifes
+		ADDED from AndroidManifest.xml:22:13
+activity#be.r
