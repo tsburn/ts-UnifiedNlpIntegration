@@ -60,4 +60,5 @@ activity#be.r3w6.xposedunifiednlp.Settings
 ADDED from AndroidManifest.xml:24:9
 	android:label
 		ADDED from AndroidManifest.xml:26:13
-	and
+	android:name
+		ADDED from Android
