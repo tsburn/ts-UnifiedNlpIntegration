@@ -67,4 +67,5 @@ ADDED from AndroidManifest.xml:27:13
 action#android.intent.action.MAIN
 ADDED from AndroidManifest.xml:28:17
 	android:name
-		ADDED from A
+		ADDED from AndroidManifest.xml:28:25
+category#de.r
