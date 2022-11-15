@@ -66,4 +66,5 @@ intent-filter#android.intent.action.MAIN+de.robv.android.xposed.category.MODULE_
 ADDED from AndroidManifest.xml:27:13
 action#android.intent.action.MAIN
 ADDED from AndroidManifest.xml:28:17
-	andro
+	android:name
+		ADDED from A
