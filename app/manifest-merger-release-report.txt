@@ -64,4 +64,5 @@ ADDED from AndroidManifest.xml:24:9
 		ADDED from AndroidManifest.xml:25:13
 intent-filter#android.intent.action.MAIN+de.robv.android.xposed.category.MODULE_SETTINGS
 ADDED from AndroidManifest.xml:27:13
-action#android.
+action#android.intent.action.MAIN
+ADDED from Andro
