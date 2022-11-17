@@ -70,4 +70,5 @@ ADDED from AndroidManifest.xml:28:17
 		ADDED from AndroidManifest.xml:28:25
 category#de.robv.android.xposed.category.MODULE_SETTINGS
 ADDED from AndroidManifest.xml:29:17
-	android
+	android:name
+		ADDED from AndroidManif
