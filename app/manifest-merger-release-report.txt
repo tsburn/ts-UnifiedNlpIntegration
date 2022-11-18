@@ -74,4 +74,4 @@ ADDED from AndroidManifest.xml:29:17
 		ADDED from AndroidManifest.xml:29:27
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
-MERGED from com.android.
+MERGED from com.android.support:support-v4:21.0.3:15
