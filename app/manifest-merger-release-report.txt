@@ -78,4 +78,5 @@ MERGED from com.android.support:support-v4:21.0.3:15:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
-	android:minSdkV
+	android:minSdkVersion
+		INJECTED from AndroidManifest
