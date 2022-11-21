@@ -1,1 +1,1 @@
-# Add pr
+# Add project specific ProGuard rule
