@@ -5,4 +5,4 @@
 # directive in build.gradle.
 #
 # For more details, see
-#   http://developer.android.com/guide
+#   http://developer.android.com/guide/developing/tools/progu
