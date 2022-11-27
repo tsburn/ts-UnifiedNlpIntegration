@@ -5,4 +5,4 @@
 # directive in build.gradle.
 #
 # For more details, see
-#   http://de
+#   http://developer.android.com/guide
