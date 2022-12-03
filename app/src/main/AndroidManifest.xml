@@ -2,4 +2,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="be.r3w6.xposedunifiednlp" >
 
-    <uses-permission android:name="andr
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCA
