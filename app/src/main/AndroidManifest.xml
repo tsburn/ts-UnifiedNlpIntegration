@@ -9,3 +9,4 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic
