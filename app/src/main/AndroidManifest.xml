@@ -14,4 +14,5 @@
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
-        <met
+        <meta-data
+            
