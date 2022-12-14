@@ -16,4 +16,5 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Integrates UnifiedN
+            android:value="Integrates UnifiedNlp into systems with GAPPS" />
+      
