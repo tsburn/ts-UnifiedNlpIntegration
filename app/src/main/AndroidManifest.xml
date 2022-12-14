@@ -15,4 +15,5 @@
             android:name="xposedmodule"
             android:value="true" />
         <meta-data
-            android:name="xposeddescript
+            android:name="xposeddescription"
+            an
