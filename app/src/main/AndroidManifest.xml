@@ -18,4 +18,5 @@
             android:name="xposeddescription"
             android:value="Integrates UnifiedNlp into systems with GAPPS" />
         <meta-data
-            android:name="
+            android:name="xposedminversion"
+     
