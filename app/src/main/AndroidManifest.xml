@@ -25,4 +25,4 @@
             android:name=".Settings"
             android:label="@string/app_name" >
             <intent-filter>
-                <action andro
+                <action android:name="android.intent.a
