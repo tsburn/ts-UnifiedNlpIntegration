@@ -25,4 +25,5 @@
             android:name=".Settings"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.a
+                <action android:name="android.intent.action.MAIN" />
+                <c
