@@ -23,4 +23,4 @@
 
         <activity
             android:name=".Settings"
-     
+            android:label
