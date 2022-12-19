@@ -22,4 +22,5 @@
             android:value="54" />
 
         <activity
-           
+            android:name=".Settings"
+     
