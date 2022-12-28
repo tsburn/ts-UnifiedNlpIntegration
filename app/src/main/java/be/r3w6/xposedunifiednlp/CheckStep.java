@@ -1,3 +1,6 @@
 package be.r3w6.xposedunifiednlp;
 
-import 
+import android.util.Log;
+
+/**
+ *
