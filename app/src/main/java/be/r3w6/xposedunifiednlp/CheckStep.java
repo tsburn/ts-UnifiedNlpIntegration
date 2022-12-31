@@ -12,4 +12,5 @@ public abstract class CheckStep {
 
     protected abstract void runStep();
 
-    privat
+    private String name;
+    priv
