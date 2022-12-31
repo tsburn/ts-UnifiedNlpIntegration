@@ -7,4 +7,7 @@ import android.util.Log;
  */
 public abstract class CheckStep {
     public CheckStep(String name) {
-        this.name = name
+        this.name = name;
+    }
+
+    protected abstract 
