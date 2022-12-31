@@ -5,4 +5,5 @@ import android.util.Log;
 /**
  * Created on 13.02.2015.
  */
-public abstract class Check
+public abstract class CheckStep {
+    public CheckStep(String
