@@ -13,4 +13,4 @@ public abstract class CheckStep {
     protected abstract void runStep();
 
     private String name;
-    priv
+    private StepState state = StepSta
