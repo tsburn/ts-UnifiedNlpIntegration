@@ -10,4 +10,6 @@ public abstract class CheckStep {
         this.name = name;
     }
 
-    protected abstract 
+    protected abstract void runStep();
+
+    privat
