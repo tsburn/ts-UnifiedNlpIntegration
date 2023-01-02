@@ -16,4 +16,4 @@ public abstract class CheckStep {
     private StepState state = StepState.WAIT;
     private String solution;
 
-    p
+    public String getName()
