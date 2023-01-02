@@ -20,4 +20,5 @@ public abstract class CheckStep {
         return name;
     }
 
-    public StepState 
+    public StepState getState() {
+        return sta
