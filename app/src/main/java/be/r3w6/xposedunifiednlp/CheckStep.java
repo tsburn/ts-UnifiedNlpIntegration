@@ -19,3 +19,5 @@ public abstract class CheckStep {
     public String getName() {
         return name;
     }
+
+    public StepState 
