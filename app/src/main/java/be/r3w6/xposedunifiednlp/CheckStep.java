@@ -21,4 +21,7 @@ public abstract class CheckStep {
     }
 
     public StepState getState() {
-        return sta
+        return state;
+    }
+
+    protected v
