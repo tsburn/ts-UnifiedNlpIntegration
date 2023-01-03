@@ -29,4 +29,5 @@ public abstract class CheckStep {
         this.state = state;
     }
 
-    public void setSolution(S
+    public void setSolution(String solution) {
+        this.s
