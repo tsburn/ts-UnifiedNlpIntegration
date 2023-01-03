@@ -25,3 +25,4 @@ public abstract class CheckStep {
     }
 
     protected void setState(StepState state) {
+        Log.i("Ch
