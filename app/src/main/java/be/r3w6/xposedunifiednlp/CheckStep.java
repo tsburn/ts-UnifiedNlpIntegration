@@ -26,3 +26,5 @@ public abstract class CheckStep {
 
     protected void setState(StepState state) {
         Log.i("CheckStep", getName() + "s state changed to " + state);
+        this.state = state;
+   
