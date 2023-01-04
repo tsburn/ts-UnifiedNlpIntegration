@@ -32,4 +32,6 @@ public abstract class CheckStep {
     public void setSolution(String solution) {
         this.solution = solution;
     }
-    public String getSolution() 
+    public String getSolution() {
+        if(solution == null)
+   
