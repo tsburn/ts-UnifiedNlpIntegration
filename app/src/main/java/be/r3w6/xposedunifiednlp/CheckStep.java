@@ -31,4 +31,5 @@ public abstract class CheckStep {
 
     public void setSolution(String solution) {
         this.solution = solution;
-    
+    }
+    public String getSolution() 
