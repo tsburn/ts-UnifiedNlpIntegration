@@ -35,4 +35,7 @@ public abstract class CheckStep {
     public String getSolution() {
         if(solution == null)
             return "No known solution";
-        return 
+        return solution;
+    }
+
+    p
