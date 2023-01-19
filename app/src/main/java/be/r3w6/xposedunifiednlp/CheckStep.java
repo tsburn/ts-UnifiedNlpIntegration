@@ -34,4 +34,4 @@ public abstract class CheckStep {
     }
     public String getSolution() {
         if(solution == null)
-   
+            return "No k
