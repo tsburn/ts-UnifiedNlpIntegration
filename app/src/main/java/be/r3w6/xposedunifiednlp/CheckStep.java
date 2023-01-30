@@ -38,4 +38,5 @@ public abstract class CheckStep {
         return solution;
     }
 
-    p
+    public enum StepState {
+  
