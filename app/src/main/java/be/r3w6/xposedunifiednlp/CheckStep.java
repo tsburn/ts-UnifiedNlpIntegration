@@ -39,4 +39,5 @@ public abstract class CheckStep {
     }
 
     public enum StepState {
-  
+        WAIT,
+        SUC
