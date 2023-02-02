@@ -42,4 +42,6 @@ public abstract class CheckStep {
         WAIT,
         SUCCESS,
         FAIL,
-        RUN
+        RUNNING, SKIPPED
+    }
+}
