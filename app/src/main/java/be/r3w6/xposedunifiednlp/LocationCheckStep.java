@@ -56,3 +56,27 @@ class LocationCheckStep extends CheckStep {
         Looper.prepare();
         new Handler().postDelayed(new Runnable() {
             @Override
+            public void run() {
+                Looper.myLooper().quit();
+            }
+        }, 10000);
+
+        if ( Build.VERSION.SDK_INT >= 23 &&
+                ContextCompat.checkSelfPermission( context, android.Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED &&
+                ContextCompat.checkSelfPermission( context, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            return ;
+        }
+
+        try { locationManager.requestSingleUpdate(LocationManager.NETWORK_PROVIDER, listener, null); }
+        catch (SecurityException e){} catch (NullPointerException e){} catch (Exception e){}
+
+        Looper.loop();
+        if(location != null) {
+            Bundle extras = location.getExtras();
+            if (extras != null) {
+                if (extras.containsKey("SERVICE_BACKEND_PROVIDER")) {
+                    setState(StepState.SUCCESS);
+                    return;
+                }
+            }
+            setState(StepState.FAIL);
