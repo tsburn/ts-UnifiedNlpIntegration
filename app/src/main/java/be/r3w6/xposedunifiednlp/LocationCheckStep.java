@@ -80,3 +80,15 @@ class LocationCheckStep extends CheckStep {
                 }
             }
             setState(StepState.FAIL);
+            setSolution("Your location were found but it looks not like an UnifiedNlp location. Check if you have activated this module.");
+        } else {
+            locationManager.removeUpdates(listener);
+            setState(StepState.FAIL);
+            setSolution("Your location were not found. Make sure you added at least one backend.");
+        }
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+}
