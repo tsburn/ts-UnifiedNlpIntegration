@@ -4,4 +4,6 @@ import android.content.Context;
 import android.location.LocationManager;
 
 /**
-* Created on 13.0
+* Created on 13.02.2015.
+*/
+class NetworkL
