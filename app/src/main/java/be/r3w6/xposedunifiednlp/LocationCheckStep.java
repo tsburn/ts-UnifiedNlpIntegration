@@ -25,3 +25,34 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
+
+/**
+* Created on 13.02.2015.
+*/
+class LocationCheckStep extends CheckStep {
+    private Context context;
+    private Location location;
+
+    public LocationCheckStep(Context context) {
+        super("UnifiedNlp location");
+        this.context = context;
+    }
+
+    @Override
+    public void runStep() {
+        LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+        LocationListener listener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                Log.d("Location found", location.toString());
+                setLocation(location);
+                Looper.myLooper().quit();
+            }
+            @Override public void onStatusChanged(String provider, int status, Bundle extras) {}
+            @Override public void onProviderEnabled(String provider) {}
+            @Override public void onProviderDisabled(String provider) {}
+        };
+        Looper.prepare();
+        new Handler().postDelayed(new Runnable() {
+            @Override
