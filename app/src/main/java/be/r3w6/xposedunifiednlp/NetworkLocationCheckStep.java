@@ -6,4 +6,4 @@ import android.location.LocationManager;
 /**
 * Created on 13.02.2015.
 */
-class NetworkL
+class NetworkLocationCheckStep extends Che
