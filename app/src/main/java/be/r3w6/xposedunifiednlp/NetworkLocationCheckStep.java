@@ -9,4 +9,5 @@ import android.location.LocationManager;
 class NetworkLocationCheckStep extends CheckStep {
     private Context context;
 
-    public NetworkLocationCheckStep(Context con
+    public NetworkLocationCheckStep(Context context) {
+        super("Net
