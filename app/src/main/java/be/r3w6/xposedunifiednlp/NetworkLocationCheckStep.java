@@ -11,4 +11,4 @@ class NetworkLocationCheckStep extends CheckStep {
 
     public NetworkLocationCheckStep(Context context) {
         super("Network-based geolocation");
-        
+        this.context = c
