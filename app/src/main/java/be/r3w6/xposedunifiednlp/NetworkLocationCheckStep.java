@@ -10,4 +10,5 @@ class NetworkLocationCheckStep extends CheckStep {
     private Context context;
 
     public NetworkLocationCheckStep(Context context) {
-        super("Net
+        super("Network-based geolocation");
+        
