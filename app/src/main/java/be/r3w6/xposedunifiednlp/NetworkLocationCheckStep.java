@@ -16,4 +16,4 @@ class NetworkLocationCheckStep extends CheckStep {
 
     @Override
     public void runStep() {
-       
+        LocationManager locationManager 
