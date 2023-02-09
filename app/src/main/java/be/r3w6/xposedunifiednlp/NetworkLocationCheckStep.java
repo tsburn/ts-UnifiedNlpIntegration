@@ -16,4 +16,5 @@ class NetworkLocationCheckStep extends CheckStep {
 
     @Override
     public void runStep() {
-        LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SE
+        LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+        if(locationManager
