@@ -15,4 +15,5 @@ class NetworkLocationCheckStep extends CheckStep {
     }
 
     @Override
-    p
+    public void runStep() {
+       
