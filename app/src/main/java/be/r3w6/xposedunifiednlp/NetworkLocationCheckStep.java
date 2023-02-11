@@ -18,4 +18,5 @@ class NetworkLocationCheckStep extends CheckStep {
     public void runStep() {
         LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
         if(locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
-            setState(StepState.SUCCE
+            setState(StepState.SUCCESS);
+        } else {
