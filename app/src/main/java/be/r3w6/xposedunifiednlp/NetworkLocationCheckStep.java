@@ -23,3 +23,6 @@ class NetworkLocationCheckStep extends CheckStep {
             setState(StepState.FAIL);
         }
     }
+
+    @Override
+    p
