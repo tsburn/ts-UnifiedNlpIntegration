@@ -20,4 +20,6 @@ class NetworkLocationCheckStep extends CheckStep {
         if(locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
             setState(StepState.SUCCESS);
         } else {
-            setState(Step
+            setState(StepState.FAIL);
+        }
+    }
