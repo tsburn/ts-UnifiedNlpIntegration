@@ -25,4 +25,4 @@ class NetworkLocationCheckStep extends CheckStep {
     }
 
     @Override
-    p
+    public String getS
