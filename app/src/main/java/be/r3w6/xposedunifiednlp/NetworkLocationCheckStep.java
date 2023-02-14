@@ -26,4 +26,4 @@ class NetworkLocationCheckStep extends CheckStep {
 
     @Override
     public String getSolution() {
-        
+        return "Please activate netw
