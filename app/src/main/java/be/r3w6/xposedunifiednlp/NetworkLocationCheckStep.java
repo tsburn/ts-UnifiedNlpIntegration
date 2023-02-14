@@ -25,4 +25,5 @@ class NetworkLocationCheckStep extends CheckStep {
     }
 
     @Override
-    public String getS
+    public String getSolution() {
+        
