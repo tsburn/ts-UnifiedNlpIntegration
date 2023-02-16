@@ -26,4 +26,4 @@ class NetworkLocationCheckStep extends CheckStep {
 
     @Override
     public String getSolution() {
-        return "Please activate network-based geolocation in Settings->Location. Since KitKat, you need to select any mode but \"device only\", on older
+        return "Please activate network-based geolocation in Settings->Location. Since KitKat, you need to select any mode but \"device only\", on older Android version this 
