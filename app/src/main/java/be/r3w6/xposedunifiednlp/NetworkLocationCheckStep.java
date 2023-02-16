@@ -26,4 +26,6 @@ class NetworkLocationCheckStep extends CheckStep {
 
     @Override
     public String getSolution() {
-        return "Please activate network-based geolocation in Settings->Location. Since KitKat, you need to select any mode but \"device only\", on older Android version this setting is called \"Wi-Fi & mobile network location\" (ignore any misleading texts saying this is for Google'
+        return "Please activate network-based geolocation in Settings->Location. Since KitKat, you need to select any mode but \"device only\", on older Android version this setting is called \"Wi-Fi & mobile network location\" (ignore any misleading texts saying this is for Google's location service)";
+    }
+}
