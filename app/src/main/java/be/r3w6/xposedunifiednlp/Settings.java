@@ -100,3 +100,10 @@ public class Settings extends Activity {
                     logTextView.append("Everything seems to be fine");
 
                 button.setText(R.string.button_check_settings);
+                button.setEnabled(true);
+            }
+        };
+        checkWorkingTask.executeOnExecutor(Executors.newSingleThreadExecutor(), steps.toArray(new CheckStep[steps.size()]));
+    }
+
+}
