@@ -72,3 +72,31 @@ public class Settings extends Activity {
                     publishProgress(step);
                     if(step.getState() == CheckStep.StepState.FAIL) {
                         return false;
+                    }
+
+                }
+                return true;
+            }
+
+            @Override
+            protected void onProgressUpdate(CheckStep... values) {
+                CheckStep step = values[0];
+                if(step.getState() == CheckStep.StepState.SUCCESS) {
+                    Spannable toAppend = new SpannableString("Check step \"" + step.getName() + "\" finished successful.\n");
+                    toAppend.setSpan(new ForegroundColorSpan(Color.GREEN), 0, toAppend.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    logTextView.append(toAppend);
+                } else {
+                    Spannable toAppend = new SpannableString("Check step \"" + step.getName() + "\" failed.\n" + step.getSolution());
+                    toAppend.setSpan(new ForegroundColorSpan(Color.RED), 0, toAppend.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    logTextView.append(toAppend);
+                }
+
+                Log.d("CheckWorkingTask", values[0].getName() + ": " + values[0].getState());
+            }
+
+            @Override
+            protected void onPostExecute(Boolean success) {
+                if(success)
+                    logTextView.append("Everything seems to be fine");
+
+                button.setText(R.string.button_check_settings);
