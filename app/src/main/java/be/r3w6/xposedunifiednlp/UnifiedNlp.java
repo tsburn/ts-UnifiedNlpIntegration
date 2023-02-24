@@ -1,3 +1,3 @@
 package be.r3w6.xposedunifiednlp;
 
-import android.c
+import android.content.pm.ApplicationInfo;
