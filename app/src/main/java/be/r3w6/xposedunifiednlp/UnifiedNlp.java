@@ -4,4 +4,5 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 
-import android.content.res.
+import android.content.res.XResources;
+import android.os.Bui
