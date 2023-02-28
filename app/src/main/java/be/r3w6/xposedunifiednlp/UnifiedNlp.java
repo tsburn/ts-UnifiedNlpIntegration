@@ -8,4 +8,5 @@ import android.content.res.XResources;
 import android.os.Build;
 import android.os.UserHandle;
 
-import de.robv.android.xposed.IXposed
+import de.robv.android.xposed.IXposedHookLoadPackage;
+import de.robv.android.xpos
