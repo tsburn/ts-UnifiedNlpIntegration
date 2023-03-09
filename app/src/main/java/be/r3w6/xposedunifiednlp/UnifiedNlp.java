@@ -15,4 +15,7 @@ import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
-public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPack
+public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage {
+
+    @Override
+    public v
