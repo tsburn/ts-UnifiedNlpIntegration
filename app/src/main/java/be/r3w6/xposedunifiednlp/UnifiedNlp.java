@@ -19,4 +19,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
 
     @Override
     public void initZygote(IXposedHookZygoteInit.StartupParam startupParam) throws Throwable {
-        XR
+        XResources.setSystemWideReplacement(
