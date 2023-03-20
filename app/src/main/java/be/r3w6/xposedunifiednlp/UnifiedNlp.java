@@ -20,4 +20,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
     @Override
     public void initZygote(IXposedHookZygoteInit.StartupParam startupParam) throws Throwable {
         XResources.setSystemWideReplacement("android", "bool", "config_enableNetworkLocationOverlay", false);
-        XResources.setSystemWideReplacement("android", "string", "config_networkLocationProvide
+        XResources.setSystemWideReplacement("android", "string", "config_networkLocationProviderPackageName", "com.google.an
