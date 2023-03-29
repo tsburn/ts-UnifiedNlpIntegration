@@ -23,4 +23,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
         XResources.setSystemWideReplacement("android", "string", "config_networkLocationProviderPackageName", "com.google.android.gms");
         XResources.setSystemWideReplacement("android", "bool", "config_enableGeocoderOverlay", false);
         XResources.setSystemWideReplacement("android", "string", "config_geocoderProviderPackageName", "com.google.android.gms");
-        XposedBr
+        XposedBridge.log("UnifiedNlp confi
