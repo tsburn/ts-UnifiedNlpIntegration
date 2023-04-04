@@ -27,4 +27,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
     }
 
     @Override
-    public void handleLoadPackage
+    public void handleLoadPackage(XC_LoadPackage.LoadPack
