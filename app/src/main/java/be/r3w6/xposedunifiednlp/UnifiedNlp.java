@@ -28,4 +28,5 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
 
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
-        if(!lpparam.packageName.equals("com.android.settin
+        if(!lpparam.packageName.equals("com.android.settings"))
+            r
