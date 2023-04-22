@@ -31,4 +31,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
         if(!lpparam.packageName.equals("com.android.settings"))
             return;
 
-        XC_Meth
+        XC_MethodHook methodHook = new XC_
