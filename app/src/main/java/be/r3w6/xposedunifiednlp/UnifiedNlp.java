@@ -32,4 +32,5 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
             return;
 
         XC_MethodHook methodHook = new XC_MethodHook() {
-            @Overri
+            @Override
+            prot
