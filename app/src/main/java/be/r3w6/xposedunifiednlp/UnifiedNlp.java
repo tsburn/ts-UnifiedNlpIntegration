@@ -34,4 +34,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
         XC_MethodHook methodHook = new XC_MethodHook() {
             @Override
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
-                ResolveInfo ri = (
+                ResolveInfo ri = (ResolveInfo) param.args[0];
