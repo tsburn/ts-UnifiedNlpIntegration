@@ -36,4 +36,7 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
             protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                 ResolveInfo ri = (ResolveInfo) param.args[0];
                 ri.serviceInfo.applicationInfo.flags |= ApplicationInfo.FLAG_SYSTEM;
- 
+            }
+        };
+
+       
