@@ -40,4 +40,4 @@ public class UnifiedNlp implements IXposedHookZygoteInit, IXposedHookLoadPackage
         };
 
         if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP) {
-            XposedHelpers.findAndHookMethod("com.androi
+            XposedHelpers.findAndHookMethod("com.android.settings.location.Settings
