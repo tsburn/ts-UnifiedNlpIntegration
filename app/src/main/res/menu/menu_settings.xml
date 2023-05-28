@@ -1,4 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="be.r3w6.xposedunifiednlp.Settings
+    tools:context="be.r3w6.xposedunifiednlp.Settings">
+    <item android:id="@+id/actio
