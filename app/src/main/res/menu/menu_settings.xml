@@ -3,4 +3,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="be.r3w6.xposedunifiednlp.Settings">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:o
+        android:orderInCategory="100"
