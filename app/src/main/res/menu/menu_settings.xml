@@ -4,3 +4,4 @@
     tools:context="be.r3w6.xposedunifiednlp.Settings">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100"
+        app:showAsAction="never" />
