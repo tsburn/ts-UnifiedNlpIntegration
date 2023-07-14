@@ -2,4 +2,6 @@
 
 buildscript {
     repositories {
-        jcent
+        jcenter()
+        google()
+    
