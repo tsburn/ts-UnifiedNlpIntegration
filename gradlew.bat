@@ -8,4 +8,4 @@
 @rem Set local scope for the variables with windows NT shell
 if "%OS%"=="Windows_NT" setlocal
 
-@rem Add default JVM options here. You can also use JAVA_
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM option
