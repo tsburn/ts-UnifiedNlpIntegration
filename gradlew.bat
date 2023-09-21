@@ -12,4 +12,4 @@ if "%OS%"=="Windows_NT" setlocal
 set DEFAULT_JVM_OPTS=
 
 set DIRNAME=%~dp0
-if
+if "%DIRNAME%" == "" set DIRNA
