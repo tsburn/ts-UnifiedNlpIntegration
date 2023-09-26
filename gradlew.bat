@@ -17,4 +17,4 @@ set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
 @rem Find java.exe
-if define
+if defined JAVA_HOME goto findJavaFromJav
