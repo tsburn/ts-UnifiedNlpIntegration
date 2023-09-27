@@ -20,4 +20,5 @@ set APP_HOME=%DIRNAME%
 if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe
-%JAVA_EXE% -version >N
+%JAVA_EXE% -version >NUL 2>&1
+if "%ERRORLEVEL%" == "0
