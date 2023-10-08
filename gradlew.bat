@@ -33,4 +33,6 @@ goto fail
 
 :findJavaFromJavaHome
 set JAVA_HOME=%JAVA_HOME:"=%
-set JAVA_EXE=%JAVA_HOME%/bin/j
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+
+if exist "%JAV
