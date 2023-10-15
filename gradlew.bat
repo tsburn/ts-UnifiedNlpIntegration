@@ -46,4 +46,4 @@ echo location of your Java installation.
 goto fail
 
 :init
-@rem
+@rem Get command-line
