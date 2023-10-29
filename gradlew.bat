@@ -52,4 +52,5 @@ if not "%OS%" == "Windows_NT" goto win9xME_args
 if "%@eval[2+2]" == "4" goto 4NT_args
 
 :win9xME_args
-@r
+@rem Slurp the command line arguments.
+set
