@@ -53,4 +53,5 @@ if "%@eval[2+2]" == "4" goto 4NT_args
 
 :win9xME_args
 @rem Slurp the command line arguments.
-set
+set CMD_LINE_ARGS=
+set _SK
