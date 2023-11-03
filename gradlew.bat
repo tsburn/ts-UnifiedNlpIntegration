@@ -60,4 +60,7 @@ set _SKIP=2
 if "x%~1" == "x" goto execute
 
 set CMD_LINE_ARGS=%*
-go
+goto execute
+
+:4NT_args
+@rem Get a
