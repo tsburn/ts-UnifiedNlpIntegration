@@ -67,4 +67,6 @@ goto execute
 set CMD_LINE_ARGS=%$
 
 :execute
-@rem Setup th
+@rem Setup the command line
+
+set CLASSPA
