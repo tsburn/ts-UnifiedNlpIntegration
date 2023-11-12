@@ -71,4 +71,5 @@ set CMD_LINE_ARGS=%$
 
 set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
-@rem Execu
+@rem Execute Gradle
+"%JAVA_EXE%" %DEFA
