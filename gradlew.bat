@@ -69,4 +69,4 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPA
+set CLASSPATH=%APP_HOME%\gradle\wrapper\gra
