@@ -6,3 +6,6 @@ An Xposed module with the capability to incorporate MicroG Services Core [MicroG
 All credit to the original developers, and special thanks to the Xposed module community!
 
 Installation
+--
+
+1. Download and install `GMSC
