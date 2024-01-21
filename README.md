@@ -8,4 +8,4 @@ All credit to the original developers, and special thanks to the Xposed module c
 Installation
 --
 
-1. Download and install `GMSC
+1. Download and install `GMSCore.apk` from the UnifiedNlp [r
