@@ -9,4 +9,5 @@ Installation
 --
 
 1. Download and install `GMSCore.apk` from the UnifiedNlp [release page](https://github.com/microg/android_packages_apps_GmsCore/releases)
-2. Download and install one or more [backends](https://github.com/microg/android_packages_apps
+2. Download and install one or more [backends](https://github.com/microg/android_packages_apps_UnifiedNlp#usage)
+3. Down
