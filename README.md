@@ -12,4 +12,6 @@ Installation
 2. Download and install one or more [backends](https://github.com/microg/android_packages_apps_UnifiedNlp#usage)
 3. Download and install this module
 4. Restart your device
-5. And, you'
+5. And, you're all set
+
+### How can 
