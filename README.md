@@ -14,4 +14,6 @@ Installation
 4. Restart your device
 5. And, you're all set
 
-### How can 
+### How can you confirm it's working
+
+If you're u
