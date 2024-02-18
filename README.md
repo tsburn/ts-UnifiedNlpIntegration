@@ -16,4 +16,4 @@ Installation
 
 ### How can you confirm it's working
 
-If you're u
+If you're using the experimental module, 
