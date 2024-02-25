@@ -16,4 +16,4 @@ Installation
 
 ### How can you confirm it's working
 
-If you're using the experimental module, you can open the settings and click the "Check settings" 
+If you're using the experimental module, you can open the settings and click the "Check settings" button. This will verify if e
