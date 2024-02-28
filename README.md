@@ -18,3 +18,7 @@ Installation
 
 If you're using the experimental module, you can open the settings and click the "Check settings" button. This will verify if everything is functioning properly.
 For any other queries, refer to [#1](https://github.com/Rawi01/XposedUnifiedNlp/issues/1).
+
+### Problem-solving
+
+Make sure 
