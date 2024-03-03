@@ -22,4 +22,4 @@ For any other queries, refer to [#1](https://github.com/Rawi01/XposedUnifiedNlp/
 ### Problem-solving
 
 Make sure that you
-* have activated
+* have activated the backends in MicroG Settings
