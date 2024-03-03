@@ -21,4 +21,5 @@ For any other queries, refer to [#1](https://github.com/Rawi01/XposedUnifiedNlp/
 
 ### Problem-solving
 
-Make sure 
+Make sure that you
+* have activated
