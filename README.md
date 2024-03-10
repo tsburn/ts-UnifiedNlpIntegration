@@ -23,4 +23,6 @@ For any other queries, refer to [#1](https://github.com/Rawi01/XposedUnifiedNlp/
 
 Make sure that you
 * have activated the backends in MicroG Settings
-* have enabled network-based geolocation in Settings->Loc
+* have enabled network-based geolocation in Settings->Location
+
+In case you ad
