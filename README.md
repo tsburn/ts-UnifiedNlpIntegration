@@ -25,4 +25,4 @@ Make sure that you
 * have activated the backends in MicroG Settings
 * have enabled network-based geolocation in Settings->Location
 
-In case you ad
+In case you adhered to the above steps and it's
