@@ -30,4 +30,5 @@ In case you adhered to the above steps and it's still dysfunctional, you're welc
 License
 ---
     Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file exc
+    you may not use this file except in compliance with the License.
+    
