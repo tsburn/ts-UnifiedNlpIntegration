@@ -37,4 +37,4 @@ License
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
-    WITH
+    WITHOUT WARRANTIES OR CO
